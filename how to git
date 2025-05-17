@@ -1,0 +1,17 @@
+# 1. Masuk ke folder proyek lokal
+cd /path/ke/proyek-anda
+
+# 2. Inisialisasi Git (jika belum)
+git init
+
+# 3. Tambahkan remote GitHub
+git remote add origin https://github.com/username/nama-repo.git
+
+# 4. Tambahkan semua file
+git add .
+
+# 5. Commit perubahan
+git commit -m "Initial upload"
+
+# 6. Push ke GitHub
+git push -u origin master
