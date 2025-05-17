@@ -14,6 +14,8 @@ const linkToItu = [
   { id:"6", ini: "photo-fed", judul: "foto-image" },
   { id:"7", ini: "route", judul: "handler" },
   { id:"8", ini: "about", judul: "coba" },
+  { id:"9", ini: "dynamic-and-static-params", judul: "static and dynamic" },
+  { id:"10", ini: "streaming", judul: "loading" },
 ]
 
 export default function Home(){
