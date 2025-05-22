@@ -16,6 +16,8 @@ const linkToItu = [
   { id:"8", ini: "about", judul: "coba" },
   { id:"9", ini: "dynamic-and-static-params", judul: "static and dynamic" },
   { id:"10", ini: "streaming", judul: "loading" },
+  { id:"11", ini: "server-route", judul: "ganti sendiri ke client" },
+  { id:"12", ini: "interleaving", judul: "some bug sometime" },
 ]
 
 export default function Home(){

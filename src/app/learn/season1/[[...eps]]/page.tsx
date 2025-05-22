@@ -172,6 +172,15 @@ export default async function Eps({params, }:{
         </div>
         </>
     )
+    const iniPage64 = (
+        <>
+        <div >
+            <p>lumayan penting untuk optimalisasi, yaitu rendering pada server dan pada client. yang artinya rendering pada server akan lebih cepat dari pada di client.</p>
+            <p>lebih baik menggunakan rendering client di ujung daripada di pangkal. karena bila rendering client di pangkal akan mempengaruhi semua rendering setelahnya sampai ujung</p>
+            <p>link youtube : <a href="https://www.youtube.com/watch?v=PM_STAq4MSg&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=65">https://www.youtube.com/watch?v=PM_STAq4MSg&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=65</a></p>
+        </div>
+        </>
+    )
 
     const {eps} = await params;
     if (eps?.length === 1){
@@ -181,6 +190,7 @@ export default async function Eps({params, }:{
          eps[0] == "eps5"? iniPage2 :
          eps[0] == "eps49"? iniPage49 :
          eps[0] == "eps53"? iniPage53 :
+         eps[0] == "eps64"? iniPage64 :
          ""}
         </>;
     } else if (eps?.length > 1){

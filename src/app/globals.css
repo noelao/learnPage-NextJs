@@ -83,3 +83,15 @@ p {
   width: 100%;
   background-color: var(--background);
 }
+
+
+
+.image-slider-container {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+  color: black;
+}

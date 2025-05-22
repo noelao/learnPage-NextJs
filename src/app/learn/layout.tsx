@@ -12,6 +12,7 @@ const navLink = [
     { id:"5", name: "eps5", href: "/learn/season1/eps5", judul: "Componen Hierarchy" },
     { id:"49", name: "eps49", href: "/learn/season1/eps49", judul: "Server-side Rendering" },
     { id:"53", name: "eps53", href: "/learn/season1/eps53", judul: "RSC Rendering Lifecycle" },
+    { id:"64", name: "eps64", href: "/learn/season1/eps64", judul: "Optimalisasi rendering" },
 ]
 
 const season = [
