@@ -7,7 +7,9 @@ export const ServerComponentOne= ()=>{
     return (
         <>
             <h1>Server component one</h1>
-            <ClientComponentOne />
+            <ClientComponentOne>
+                <h2>Child of Client Component One</h2>
+            </ClientComponentOne>
         </>
     )
 };

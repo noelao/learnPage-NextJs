@@ -13,6 +13,8 @@ export const ClientComponentOne = (
         <>
     <h1>Client component one</h1>
     {children}
+    <h2>{name}</h2>
+    <button onClick={()=>setName("Superman")}>Change Name</button>
         </>
     )
 }
