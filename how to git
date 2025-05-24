@@ -5,7 +5,7 @@ cd /path/ke/proyek-anda
 git init
 
 # 3. Tambahkan remote GitHub
-git remote add origin https://github.com/username/nama-repo.git
+git remote add origin https://github.com/noelao/learnPage-NextJs
 
 # 4. Tambahkan semua file
 git add .
